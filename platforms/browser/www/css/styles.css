@@ -1,0 +1,208 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.demo-card-header-pic .card-header {
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+  }
+  .demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+  }
+
+  .align-items-flex-end{
+      align-items: flex-end;
+  }
+
+  .card-content-padding{
+      padding: 10px;
+  }
+
+  /* --------------------------------------------------------------- */
+
+  .swiper-container {
+    height: 100%;
+  }
+
+  .imag{
+      width: 100%;
+      height: 100%;
+  }
+
+  /* --------------------------------------------------------------- */
+  .dale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-block .asd{
+
+    margin: auto;
+    
+    width: 100%;
+  }
+
+.login_conteiner{
+  height: 100%;
+  width: 100%;
+    text-align: center;
+    
+    align-items: center;
+    
+}
+
+
+
+
+
+/* ---------------------------------------------------------------
+configuiracion grid de page content */
+
+
+.navbar-inner{
+  padding: 0px;
+  height:61px;
+}
+
+
+.micontenedor{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 90px 1fr 44px;
+
+}
+.micontenedor .navbar{
+  height: 100%;
+}
+.navbar-fixed .page-content{
+  padding: 0%;
+}
+
+/* //////////////////////////////// */
+
+.conteiner_slider{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 44px 1fr 44px;
+
+
+}
+#ocult{
+  display: none;
+}
+
+
+/* 
+//////////////////////////////////////////////////////////////////// */
+
+/* .scrollmenu::-webkit-scrollbar {
+  display: none;
+} */
+
+/* .navbar{
+ display: block;
+  widows: 100%;
+} */
+.navbar{
+  display: grid;
+  grid-template-rows: 61px 1fr;
+}
+
+
+
+.buttons-row{
+  position: relative;
+  top: 45px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.buttons-row a{
+  height: 100%;
+}
+.AKA a{
+  margin: auto;
+  padding: 0px;
+}
+
+
+/* --------------------------------------------------------------- */
+.content-block{
+  
+  height: 180px;
+  margin: 0%;
+}
+.content-block-inner{
+  height: 100%;
+  
+}
+
+.calendar-custom-toolbar{
+  height: 30px;
+}
+
+.picker-calendar-day{
+  font-size: 3vw;
+ 
+}
+.picker-calendar-row{
+  height: 25px; 
+}
+
+
+
+.calendario{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows:180px 1fr;
+  grid-gap: 10px;
+}
+.page-content .ESTA{
+  display: flex;
+}
+/* ----------------------------------------------------------------- */
+.mi_scroll{
+  overflow: auto;
+}
+.infinite-scroll-preloader {
+  margin-top:-20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.infinite-scroll-preloader .preloader {
+  width:34px;
+  height:34px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+
+
+    .popover {
+      width: 200px;
+    }
+ 
